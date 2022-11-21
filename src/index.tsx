@@ -8,6 +8,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIb6tuC5IBX5yf8pYBMs_hLkZicqDHZ9k&libraries=places&callback=initMap">
+    </script>
     <App />
   </React.StrictMode>
 );
